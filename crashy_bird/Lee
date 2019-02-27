@@ -1,0 +1,13 @@
+led.setBrightness(255)
+basic.showString("Press A to start", 70)
+basic.showLeds(`
+    . # . # .
+    . # . # .
+    . . . . .
+    # . . . #
+    . # # # .
+    `)
+basic.pause(200)
+basic.forever(function () {
+	
+})
